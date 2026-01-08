@@ -1,6 +1,6 @@
 {
   "name": "@arsalanshaikhh/auto-time-theme-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight React npm package that automatically switches between light and dark themes based on the user's local time, with full manual override support.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
