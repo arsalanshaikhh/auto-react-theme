@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@arsalanshaikhh/auto-time-theme-react.svg)](https://npmjs.com/package/@arsalanshaikhh/auto-time-theme-react)
 [![License](https://img.shields.io/npm/l/@arsalanshaikhh/auto-time-theme-react.svg)](https://opensource.org/licenses/MIT)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://your-demo-url.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://auto-time-theme-react.vercel.app)
 
 A lightweight React npm package that automatically switches between light and dark themes based on the user's local time, with full manual override support.
 
@@ -20,7 +20,7 @@ yarn add @arsalanshaikhh/auto-time-theme-react
 
 ## Live Demo
 
-Try the live demo at: [https://your-demo-url.vercel.app](https://your-demo-url.vercel.app)
+Try the live demo at: [https://auto-time-theme-react.vercel.app](https://auto-time-theme-react.vercel.app)
 
 ## Quick Start
 
