@@ -1,28 +1,33 @@
 # Auto React Theme
 
-[![npm version](https://img.shields.io/npm/v/smart-auto-theme-ar.svg)](https://www.npmjs.com/package/smart-auto-theme-ar)
-[![License](https://img.shields.io/npm/l/smart-auto-theme-ar.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/@arsalanshaikhh/auto-time-theme-react.svg)](https://npmjs.com/package/@arsalanshaikhh/auto-time-theme-react)
+[![License](https://img.shields.io/npm/l/@arsalanshaikhh/auto-time-theme-react.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://your-demo-url.vercel.app)
 
 A lightweight React npm package that automatically switches between light and dark themes based on the user's local time, with full manual override support.
 
 ## Installation
 
 ```bash
-npm install smart-auto-theme-ar
+npm install @arsalanshaikhh/auto-time-theme-react
 ```
 
 or
 
 ```bash
-yarn add smart-auto-theme-ar
+yarn add @arsalanshaikhh/auto-time-theme-react
 ```
+
+## Live Demo
+
+Try the live demo at: [https://your-demo-url.vercel.app](https://your-demo-url.vercel.app)
 
 ## Quick Start
 
 ### 1. Wrap your app with the provider
 
 ```tsx
-import { AutoThemeProvider } from 'smart-auto-theme-ar';
+import { AutoThemeProvider } from '@arsalanshaikhh/auto-time-theme-react';
 
 function App() {
   return (
@@ -36,7 +41,7 @@ function App() {
 ### 2. Use the hook in your components
 
 ```tsx
-import { useAutoTheme } from 'smart-auto-theme-ar';
+import { useAutoTheme } from '@arsalanshaikhh/auto-time-theme-react';
 
 function ThemeToggle() {
   const { theme, mode, setLight, setDark, setAuto, toggleTheme } = useAutoTheme();
@@ -82,11 +87,11 @@ function ThemeToggle() {
 
 ```tsx
 // Get only the current theme
-import { useTheme } from 'smart-auto-theme-ar';
+import { useTheme } from '@arsalanshaikhh/auto-time-theme-react';
 const theme = useTheme();
 
 // Get only the current mode
-import { useMode } from 'smart-auto-theme-ar';
+import { useMode } from '@arsalanshaikhh/auto-time-theme-react';
 const mode = useMode();
 ```
 
@@ -193,7 +198,7 @@ If the user selects a manual theme, time-based switching is paused until auto mo
 ### With a Theme Toggle Component
 
 ```tsx
-import { useAutoTheme } from 'smart-auto-theme-ar';
+import { useAutoTheme } from '@arsalanshaikhh/auto-time-theme-react';
 
 function ThemeToggle() {
   const { theme, mode, setLight, setDark, setAuto, toggleTheme } = useAutoTheme();
@@ -226,7 +231,7 @@ function ThemeToggle() {
 ### Using with CSS-in-JS
 
 ```tsx
-import { useTheme } from 'smart-auto-theme-ar';
+import { useTheme } from '@arsalanshaikhh/auto-time-theme-react';
 
 function StyledComponent() {
   const theme = useTheme();
@@ -251,7 +256,7 @@ The package is designed to be safe for server-side rendering:
 
 ```tsx
 // This works with Next.js, Gatsby, Remix, etc.
-import { AutoThemeProvider } from 'smart-auto-theme-ar';
+import { AutoThemeProvider } from '@arsalanshaikhh/auto-time-theme-react';
 
 export default function MyApp({ Component, pageProps }) {
   return (
