@@ -1,5 +1,5 @@
 {
-  "name": "smart-auto-theme-ar",
+  "name": "@arsalanshaikhh/time-theme",
   "version": "1.0.0",
   "description": "A lightweight React npm package that automatically switches between light and dark themes based on the user's local time, with full manual override support.",
   "main": "dist/index.js",
