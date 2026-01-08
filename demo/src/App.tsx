@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { AutoThemeProvider, useAutoTheme } from '../../src';
-import type { Mode, ThemeConfig } from '../../src/types';
+import { AutoThemeProvider, useAutoTheme } from '@arsalanshaikhh/auto-time-theme-react';
+import type { Mode, ThemeConfig } from '@arsalanshaikhh/auto-time-theme-react';
 
 /**
  * Demo component showcasing the useAutoTheme hook
@@ -113,7 +113,7 @@ function ThemeControls() {
         <h2 className="demo-section-title">Usage</h2>
         <div className="code-block">
           <pre style={{ margin: 0 }}>
-            <code>{`import { AutoThemeProvider, useAutoTheme } from 'react-auto-time-theme';
+            <code>{`import { AutoThemeProvider, useAutoTheme } from '@arsalanshaikhh/auto-time-theme-react';
 
 function App() {
   return (
