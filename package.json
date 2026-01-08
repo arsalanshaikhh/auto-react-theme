@@ -1,5 +1,5 @@
 {
-  "name": "auto-react-theme",
+  "name": "auto-theme-react",
   "version": "1.0.0",
   "description": "A lightweight React npm package that automatically switches between light and dark themes based on the user's local time, with full manual override support.",
   "main": "dist/index.js",
@@ -7,11 +7,11 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arsalanshaikhh/auto-react-theme.git"
+    "url": "https://github.com/arsalanshaikhh/auto-theme-react.git"
   },
-  "homepage": "https://github.com/arsalanshaikhh/auto-react-theme",
+  "homepage": "https://github.com/arsalanshaikhh/auto-theme-react",
   "bugs": {
-    "url": "https://github.com/arsalanshaikhh/auto-react-theme/issues"
+    "url": "https://github.com/arsalanshaikhh/auto-theme-react/issues"
   },
   "exports": {
     ".": {
